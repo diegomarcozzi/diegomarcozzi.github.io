@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--
+##########################################################################################
+Designed and coded by DMM 
+##########################################################################################
+-->
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>DMM</title>
+<meta name="viewport" content="width-device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+<link rel="stylesheet" href="assets/css/index.css">
+
+
+</head>
+
+
+<link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+<body>
+
+
+
+
+
+  <div class="navbarcontainer">
+<div class="menu-wrapper">
+<input type="checkbox" id="overlay-input" />
+<label for="overlay-input" id="overlay-button"><span></span></label>
+  <div id="overlay">
+    <ul>
+     
+      <li><h2 style="margin: 2rem; font-size: 4rem; font-weight: 800;"><a href="index.html" id="work-link">Work</a></h2></li>
+      <li><h2 style="margin: 2rem; font-size: 4rem; font-weight: 800;"><a href="/about.html" id="about-link">About</a></h2></li>
+      <li><h2 style="margin: 2rem; font-size: 4rem; font-weight: 800;"><a href="https://www.linkedin.com/in/diego-marcozzi/" id="contact-link">Contact</a></h2></li>
+    </ul>
+  </div>
+</div>
+
+<script>
+  
+  function closeMobileMenu() {
+    var checkbox = document.getElementById('overlay-input');
+    checkbox.checked = false;
+  }
+
+  document.getElementById('home-link').addEventListener('click', closeMobileMenu);
+  document.getElementById('work-link').addEventListener('click', closeMobileMenu);
+  document.getElementById('about-link').addEventListener('click', closeMobileMenu);
+  document.getElementById('contact-link').addEventListener('click', closeMobileMenu);
+</script>
+
+                
+    <div class="menu">
+      <div class="logo">
+        <a href="index.html">
+          <img src="images/dmmlogo32.svg">
+        </a>
+      </div>
+      <nav class="nav">
+       <!-- <a href="/dmm/index.html#work-title-btn" class="button-work" style="font-size:1rem; padding: 2rem; color:white; align-items: flex-start;">Work</a>-->
+        <a href="/about.html" class="button-about" style="padding: 1rem; color:white">About</a>
+        <a href="https://www.linkedin.com/in/diego-marcozzi/" class="button-contact" style="padding: 1rem; color:white">Contact</a>
+      </nav>
+    </div>
+</div>
+    
+
+    
+<div class="newarticle">
+<img class="rectangle" src="images/comingsoon.png">
+</div>
+
+
+  
+
+
+   <div class="copyright">
+          <img src="images/dmmlogo32.svg">
+     <p style="color: white; font-size: 0.6rem; margin-top: 1rem;margin-bottom: 2rem;">©2025</p>
+      </div>
+
+
+
+
+
+
+
+</div>
+</div>
+</body>
+
+</html>
