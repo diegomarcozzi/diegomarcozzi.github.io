@@ -3286,6 +3286,14 @@ max-height: 850px;
 
 }
 
+.rectangle3 {
+   width: 100%;
+  object-fit:fill;
+      background-color: black;
+
+}
+
+
 
 .newcontainer .divcontainer2 {
   display: flex;
