@@ -3290,6 +3290,7 @@ max-height: 850px;
    width: 100%;
   object-fit:fill;
       background-color: black;
+      max-height: 1200px;
 
 }
 
