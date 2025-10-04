@@ -3269,7 +3269,7 @@ font-variation-settings:
   object-fit:contain;
     aspect-ratio: 16/9;   /* or whatever your design needs */
       background-color: black;
-
+max-height: 850px;
 
        mask-image: linear-gradient(to bottom, 
         black 0%,      /* Fully visible from the top */
